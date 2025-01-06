@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>BaseTemplate.DAL</AssemblyName>
+        <PackageId>BaseTemplate.DAL</PackageId>
+        <Authors>BaseTemplate.DAL</Authors>
+        <Company>BaseTemplate.DAL</Company>
+        <Product>BaseTemplate.DAL</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="../BaseTemplate.BLL/BaseTemplate.BLL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="System.IO.Abstractions" Version="20.0.15" />
+    </ItemGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugSymbols>false</DebugSymbols>
+        <DebugType>none</DebugType>
+    </PropertyGroup>
+
+</Project>

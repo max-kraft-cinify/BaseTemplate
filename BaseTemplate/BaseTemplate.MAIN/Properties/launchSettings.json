@@ -1,0 +1,22 @@
+﻿{
+  "profiles": {
+    "BaseTemplate.MAIN": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:4000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Linux-BaseTemplate.MAIN": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:4000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Linux-Development",
+        "DOTNET_ENVIRONMENT": "Linux-Development"
+      }
+    }
+  }
+}

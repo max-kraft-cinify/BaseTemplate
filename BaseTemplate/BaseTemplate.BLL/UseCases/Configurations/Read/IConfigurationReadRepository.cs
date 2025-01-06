@@ -1,0 +1,8 @@
+using Shared.BLL.Core.Read;
+
+namespace BaseTemplate.BLL.UseCases.Configurations.Read;
+
+public interface IConfigurationReadRepository: IBaseReadRepository<ConfigurationDto>
+{
+        
+}

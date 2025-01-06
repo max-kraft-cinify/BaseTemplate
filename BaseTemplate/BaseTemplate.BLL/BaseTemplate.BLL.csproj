@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <AssemblyName>BaseTemplate.BLL</AssemblyName>
+        <PackageId>BaseTemplate.BLL</PackageId>
+        <Authors>BaseTemplate.BLL</Authors>
+        <Company>BaseTemplate.BLL</Company>
+        <Product>BaseTemplate.BLL</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="../BaseTemplate.PAL/BaseTemplate.PAL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.2" />
+      <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="8.0.2" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    </ItemGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugSymbols>false</DebugSymbols>
+        <DebugType>none</DebugType>
+    </PropertyGroup>
+
+</Project>

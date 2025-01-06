@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "artec technologies AG",
+  "classifications": [ "Multieye" ],
+  "identity": "Multieye.Service",
+  "name": "Multieye.Service",
+  "shortName": "Multieye.Service",
+  "sourceName": "BaseTemplate",
+  "preferNameDirectory":true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

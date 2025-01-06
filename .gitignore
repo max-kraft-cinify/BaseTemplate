@@ -1,0 +1,55 @@
+#
+# Common files
+
+*.exe
+*.dll
+bin/*
+*.res
+*.RES
+*.otares
+build*.bat
+.testconfig
+
+#
+# Visual Studio
+
+*.cbk
+*.user
+ipch/
+Debug/
+Release/
+UnitTest/
+*.sdf
+*.opensdf
+.VS/
+
+### Xcode ###
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+obj
+.idea
+obj
+obj
+.idea
+obj
+obj
+.ts
+.m3u8
