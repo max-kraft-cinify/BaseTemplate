@@ -1,4 +1,4 @@
-using Shared.BLL.Core.Read;
+using BaseTemplate.BLL.Core.Read;
 
 namespace BaseTemplate.BLL.UseCases.Configurations.Read;
 

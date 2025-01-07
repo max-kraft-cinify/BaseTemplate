@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using BaseTemplate.BLL.UseCases.Configurations;
 using BaseTemplate.BLL.UseCases.Configurations.Read;
+using BaseTemplate.PAL.UseCases.Configurations;
 using BaseTemplate.PAL.UseCases.Configurations.Read;
 using BaseTemplate.TEST.Core;
 using Microsoft.Extensions.Configuration;
@@ -34,7 +35,7 @@ public class ConfigurationReadServiceTest
     public void ShouldReturnInstanceOfConfiguration()
     {
         var actual = _configurationReadService.Read();
-        ClassicAssert.IsInstanceOf<ConfigurationDto>(actual);
+        ClassicAssert.IsInstanceOf<Configuration>(actual);
     }
         
     [Test]

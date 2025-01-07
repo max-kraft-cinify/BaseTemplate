@@ -1,6 +1,6 @@
-namespace Shared.BLL.Core.Read;
+namespace BaseTemplate.BLL.Core.Read;
 
-public interface IBaseReadRepository<TEntity>
+public interface IBaseReadRepository<TEntityDto>
 {
-    TEntity Read();
+    TEntityDto Read();
 }
